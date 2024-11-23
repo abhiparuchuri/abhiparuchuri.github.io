@@ -216,6 +216,7 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  position: absolute;
 }
 .home__blob-img {
   width: 360px;
