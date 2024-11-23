@@ -327,20 +327,21 @@ img {
 
 .resume {
     text-align: center;
-    padding: 2rem 1rem; /* Adjust spacing around the section */
+    padding: 2rem 1rem; /* Add some spacing above and below the section */
 }
 
 .resume__container {
     display: flex;
     justify-content: center; /* Center the iframe horizontally */
-    align-items: center; /* Optional: vertically align for responsiveness */
-    margin: 0 auto;
-    max-width: 80%; /* Adjust width for desktop screens */
+    margin: 0 auto; /* Center alignment */
 }
 
 iframe {
-    max-width: 100%; /* Ensure it doesn’t overflow on smaller screens */
-    height: 80vh; /* Adjusts height dynamically based on viewport */
+    width: 80%; /* Take 80% of the available width */
+    max-width: 900px; /* Prevent the iframe from becoming too wide */
+    height: 800px; /* Adjust the height as needed */
+    border: 0; /* Remove any borders */
+    outline: none; /* Remove focus outlines */
 }
 
 
