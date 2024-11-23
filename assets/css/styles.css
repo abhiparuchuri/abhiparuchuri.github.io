@@ -179,32 +179,6 @@ img {
 }
 
 /*===== HOME =====*/
-.home {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns */
-    align-items: center; /* Center content vertically */
-    min-height: 100vh; /* Make section fill full screen height */
-}
-
-.home__img {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
-
-.home__blob {
-    max-width: 350px; /* Keep blob size manageable */
-    width: 100%; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.home__title {
-    margin-bottom: 1rem; /* Add spacing below the title */
-}
-
-.button {
-    margin-top: 1rem; /* Add spacing above the button */
-}
 
 /*.home {
   position: relative;
