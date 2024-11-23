@@ -180,42 +180,30 @@ img {
 
 /*===== HOME =====*/
 .home {
-  display: grid; /* Use grid for better layout control */
-  grid-template-columns: 1fr 1fr; /* Two equal columns for text and blob */
-  align-items: center; /* Vertically align content */
-  padding: 4rem 0; /* Keep your padding */
-  min-height: 100vh; /* Ensure the section fills the viewport */
-  position: relative; /* Keep position relative for safe child positioning */
-}
-
-.home__data {
-  align-self: center;
-}
-
-.home__title {
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
-}
-
-.home__title-color {
-  color: var(--first-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Make section fill full screen height */
 }
 
 .home__img {
-  display: flex; /* Allow for centering within its grid cell */
-  justify-content: center; /* Center blob horizontally */
-  align-items: center; /* Center blob vertically */
-  max-width: 360px; /* Constrain the width of the blob */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .home__blob {
-  fill: var(--first-color);
-  width: 100%; /* Ensure the SVG scales properly */
-  height: auto; /* Maintain aspect ratio */
+    max-width: 350px; /* Keep blob size manageable */
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.home__blob-img {
-  width: 260px; /* Control the size of the blob image */
+.home__title {
+    margin-bottom: 1rem; /* Add spacing below the title */
+}
+
+.button {
+    margin-top: 1rem; /* Add spacing above the button */
 }
 
 /*.home {
