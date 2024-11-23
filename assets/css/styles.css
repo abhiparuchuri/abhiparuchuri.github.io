@@ -180,7 +180,7 @@ img {
 
 /*===== HOME =====*/
 
-/*.home {
+.home {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
@@ -219,7 +219,7 @@ img {
 }
 .home__blob-img {
   width: 360px;
-} */
+} 
 
 /*BUTTONS*/
 .button {
