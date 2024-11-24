@@ -308,27 +308,6 @@ img {
 }
 
 /* ===== WORK =====*/
-
-body {
-    margin: 0;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    justify-content: center; /* Horizontal center */
-    align-items: center; /* Vertical center */
-}
-
-.home__social-icon i {
-    font-size: 50px; /* Adjust icon size */
-    color: #E1306C; /* Instagram color */
-    text-decoration: none; /* Remove underline */
-    transition: transform 0.3s; /* Smooth hover effect */
-}
-
-.home__social-icon i:hover {
-    transform: scale(1.2); /* Slight zoom on hover */
-}
-
-
 .work__container {
   row-gap: 2rem;
 }
